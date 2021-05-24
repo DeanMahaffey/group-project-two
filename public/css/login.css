@@ -1,0 +1,80 @@
+.logingrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+    padding: 25px;
+    font-size: 35px;
+    background-color: rgba(103, 205, 90, 0.65)
+}
+
+.pagestyles {
+    border: 4px solid;
+    margin: 20px;
+}
+
+.form {
+    padding: 20px;
+}
+
+.loginHeader {
+    font-size: 50px;
+    margin: 15px;   
+}
+
+.signup-form {
+    margin-top: 10px;
+}
+
+.form-group {
+    align-items: center;
+}
+
+.form-input {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #a7dbd8;
+}
+
+@media only screen and (max-width: 850px) {
+    .logingrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .logingrid {
+        font-size: 25px;
+    }
+
+    .loginHeader {
+        font-size: 30px;
+    }
+
+    .signup-form {
+        margin-top: 5px;
+    }
+
+    .form-input {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .logingrid {
+        font-size: 20px;
+    }
+
+    .loginHeader {
+        font-size: 25px;
+    }
+
+    .signup-form {
+        margin-top: 5px;
+    }
+    
+    .form-input {
+        font-size: 12px;
+    }
+}
